@@ -81,7 +81,7 @@ function App() {
     doc.text("Shell Recharge", leftIndent, 265);
     doc.text("uk.shellrecharge.com/charging-at-shell", leftIndent, 275);
 
-    doc.save(`${e.target.name.value}.pdf`);
+    doc.save("receipt.pdf");
   }
 
   return (
@@ -129,7 +129,9 @@ function App() {
         <p><label htmlFor="method">Payment method </label>
         <input type="text" name="method" id="method" defaultValue="Contactless" /> 
         </p>
+        <p>
         <button>Download receipt</button>
+        </p>
       </form>
     </div>
   );
