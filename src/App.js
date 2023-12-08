@@ -68,7 +68,7 @@ function App() {
     doc.setFont(font, "bold"); doc.text("Address", leftIndent,220);
     doc.setFont(font, "normal"); doc.text("Davidson Building, 4th Floor, 5 Southampton", rightIndent,220);
     doc.setFont(font, "normal"); doc.text("Street, WC2E 7HA, Wesminster London", rightIndent,224);
-    doc.setFont(font, "bold"); doc.text("contact", leftIndent,230);
+    doc.setFont(font, "bold"); doc.text("Contact", leftIndent,230);
     doc.setFont(font, "normal"); doc.text("dcoperations.uk@newmotion.com", rightIndent,230);
     doc.setFont(font, "bold"); doc.text("Chamber of Commerce", leftIndent,240);
     doc.setFont(font, "normal"); doc.text("10296832", rightIndent,240);
@@ -96,26 +96,26 @@ function App() {
         <input type="text" name="location" id="location" defaultValue="Norwhich"  /> 
         </p>
         <p><label htmlFor="sessionID">Charge session ID </label>
-        <input type="text" name="sessionID" id="sessionID" defaultValue="TERRA_54_006*0" /> 
+        <input type="text" name="sessionID" id="sessionID" defaultValue="TERRA_54_00" /> 
         </p>
         <p><label htmlFor="sessionStart">Session start </label>
-        <input type="text" name="sessionStart" id="sessionStart" defaultValue="08 November 2023" /> 
+        <input type="text" name="sessionStart" id="sessionStart" defaultValue="08 November 2022" /> 
         </p>
         <p><label htmlFor="sessionEnd">Session stopped </label>
-        <input type="text" name="sessionEnd" id="sessionEnd" defaultValue="08 November 2023" /> 
+        <input type="text" name="sessionEnd" id="sessionEnd" defaultValue="08 November 2022" /> 
         </p>
         <p><label htmlFor="kW">Charged volume </label>
-        <input type="text" name="kW" id="kW" defaultValue="18.10588" /> 
+        <input type="text" name="kW" id="kW" defaultValue="18.10418" /> 
         </p>
         <p className='title'>Payment details</p>
         <p><label htmlFor="price">Price without VAT (GBP) </label>
-        <input type="text" name="price" id="price" defaultValue="12.83"/> 
+        <input type="text" name="price" id="price" defaultValue="12.13"/> 
         </p>
         <p><label htmlFor="vat">VAT amount (GBP) </label>
-        <input type="text" name="vat" id="vat" defaultValue="2.57" /> 
+        <input type="text" name="vat" id="vat" defaultValue="2.17" /> 
         </p>
         <p><label htmlFor="priceWithVat">Amount with VAT (GBP) </label>
-        <input type="text" name="priceWithVat" id="priceWithVat" defaultValue="15.39" /> 
+        <input type="text" name="priceWithVat" id="priceWithVat" defaultValue="15.19" /> 
         </p>
         <p><label htmlFor="vatPercent">VAT % </label>
         <input type="text" name="vatPercent" id="vatPercent" defaultValue="20%" /> 
@@ -124,7 +124,7 @@ function App() {
         <input type="text" name="description" id="description" defaultValue="kWh fee: GBP 0.85 incl. VAT" /> 
         </p>
         <p><label htmlFor="date">Payment date </label>
-        <input type="text" name="date" id="date" defaultValue="08 November 2023" /> 
+        <input type="text" name="date" id="date" defaultValue="08 November 2022" /> 
         </p>
         <p><label htmlFor="method">Payment method </label>
         <input type="text" name="method" id="method" defaultValue="Contactless" /> 
