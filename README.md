@@ -1,6 +1,7 @@
 # Receipt generator
 
 Just a simple project to generate a PDF receipt based on the info provided on a form.
+As a real world example, it's pretending it's an EV charging company.
 Made with the Create React App
 
 See the live demo here:
